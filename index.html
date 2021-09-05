@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>Password Generator</title>
+    </head>
+    <body>
+        <wrapper>
+            <container id="mainContainer">
+                <h1></h1>
+                <container id="lengthContainer">
+                    <p>Length</p>
+                    <input type="range" min="1" max="20" value="15" id="lengthRange">
+                    <p id="lengthDisplay"></p>
+                </container>
+                <input type="checkbox" id="specChars" name="specChars">
+                <label for="specChars" id="specCharsLabel">Include special characters? (!@#$%^&*)</label>
+                <button id="generate">Generate Password</button>
+                <script src="scripts.js"></script>
+            </container>
+        </wrapper>
+    </body>
+</html>
